@@ -1,0 +1,26 @@
+let BottomIcon=document.getElementsByClassName("BottomIcon")[0];
+let startmenu=document.getElementsByClassName("startmenu")[0];
+// when any person click the taskbar then startmenu will moved up
+
+BottomIcon.addEventListener("click", ()=>{
+    console.log("clicked");
+    if(startmenu.style.bottom == "41px"){
+        startmenu.style.bottom = "-650px"
+    }
+    else{
+        startmenu.style.bottom = "41px"
+    }
+} )
+
+let right=document.getElementsByClassName("right")[0];
+let righticon=document.getElementsByClassName("righticon")[0];
+
+right.addEventListener("click", ()=>{
+    console.log("clicked");
+    if(righticon.style.bottom == "50px"){
+        righticon.style.bottom = "-125px"
+    }
+    else{
+        righticon.style.bottom = "50px"
+    }
+})

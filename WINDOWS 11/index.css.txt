@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(window.jpg); 
+     background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+.taskbar{
+    background: #d6deef;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.BottomIcon{
+    width: 40vw;
+    z-index: 110;
+}
+.startmenu{
+    position: absolute;
+    /* bottom: 41px; */
+    /* this value is important bcz when we will click startment 
+    then startmenu up 41px from bottom */
+
+    /* intially startmenu inside the dekstop.so bottom have negative
+    height */
+    bottom: -650px;
+    width: 100%;
+    text-align: center;
+    
+    transition: all 0.3s ease-in; 
+    /* control transition from javascript */
+}
+
+.startmenu img{
+    width: 40vw;
+    height: 90vh;
+    border-radius: 8px; 
+   
+}
+
+
+.right{ 
+    width: 24vw;
+   
+    justify-content: right; 
+    position: absolute;
+    right: 0;
+    margin: 6px 0;
+    height: 80%;
+    transition: all 0.3s ease-in;
+    z-index: 110;
+}
+.video{
+    width: 100%;
+   
+}
+
+.icons img{
+    width: 60px;
+    height: 60px;
+    margin-left: 11px;
+    margin-top: 15px;
+}
+.chrome{
+    margin-left: 12px;
+    color: white;
+    display: flex;
+    width: 60px;
+    text-align: center;
+    text-shadow: 1px 0.2px #cfe5e1;
+    
+}
+.setting{
+    margin-left: 15px;
+    color: white;
+    display: flex;
+    width: 60px;
+    text-align: center;
+    text-shadow: 1px 0.2px #cfe5e1;
+}
+
+.visual{
+    color: white;
+    width: 108px;
+    display: flex;
+    text-align: center;
+    margin-left: -8px;
+    text-shadow: 1px 0.2px #cfe5e1;
+}
+
+.excel{
+    color: white;
+    width: 70px;
+    display: flex;
+    text-align: center;
+    margin-left: 18px;
+    text-shadow: 1px 0.2px #cfe5e1;
+}
+.office{
+    position: absolute;
+    top: 3px;
+    left: 85px;
+}
+.office1{
+    position: absolute;
+    top: 84px;
+    left: 103px;
+    color: white;
+    text-shadow: 1px 0.2px #cfe5e1;
+}
+.file{
+    position: absolute;
+    top: 103px;
+    left: 85px;
+}
+.file1{
+    position: absolute;
+    top: 178px;
+    left: 88px;
+    width: 70px;
+    display: flex;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 0.2px #cfe5e1;
+}
+
+.righticon{
+    position: absolute;
+    right: 240px;
+    /* bottom: 50px; */
+    bottom: -125px;
+    
+}
+.bettrymenu{
+    border-radius: 8px;
+    
+}
