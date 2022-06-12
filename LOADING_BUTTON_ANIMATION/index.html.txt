@@ -1,0 +1,49 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+</head>
+<body>
+    <!-- animation are two types
+    1.transition-- jab humne kch color wgera change krate  to uska immediately change ho jata hai.but transition me hum time de dete hai jisse woh colour utne time tak change hota hai.
+    which property use in transition-aimated css property(google)
+    (mdn web)
+        transition properties;-
+    tranisition----: shorthand property
+transition: property name    Time       Easing Function      delay
+                    |            |              |               |
+                margin-name     2s          ease-out            2s
+                    |           |               |               \
+transition-property)  (transition-  (transition-timing-         (transition-delay)  {kitne time baad animation dikhana hai}
+                            duration)           Function)
+                                                |
+                                                (kain trah k function hote hai jinse basically bta sktey hai ki phle slow jaye baad me fast ya phle fast and baad me slow)
+    (sbhi property without word wrap padhey)
+
+2.Animation property-isme hum css ki ek styking likhenge aur usse dusre me jayenge
+                        Animation
+                        /       \
+                      /          \
+                    style          keyframe
+    (jo hum likhnge ye wo hogi
+    jo phle likhi hue to ussey change 
+    hoker aayegi jo)           
+    (((ek baar notebook se padh ley aage ka ye b zrur pdhey)))
+                        
+-->
+
+<!-- traion-- start -->
+<!-- ek class jisme ek box ko gola me karna on hover per -->
+
+<!-- <div class="gola"></div> -->
+
+<!-- transion --end -->
+
+<!-- animation ke liye -->
+<!-- start --> 
+
+  <a>Loading</a>
+
+
+</body>

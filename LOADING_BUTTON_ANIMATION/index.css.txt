@@ -1,0 +1,49 @@
+--------CSS----------------
+        /* transion ke liye start-- */
+        .gola{
+            width: 100px;
+             height: 100px;
+            background: red;
+            transition: width 2s ,height 4s, border-radius 4s, background 4s;
+        }
+        .gola:hover{
+            width: 300px;
+            height: 300px;
+            border-radius: 50%; /* yani gol ho jayega*/
+            background: green;
+            /* --end */
+        }
+         /* for animation--start--> */
+         a{
+            animation: bouncing 0.5s ease 0s infinite alternate both;
+            /* name, time-during ease-funtion time-de;ay loop direction fill-mode */
+
+             background: purple;
+             border-radius: 50%;
+             display: inline-block;
+             color: white;
+           cursor: pointer;
+           font-size: 20px;
+           font-weight: 300;
+           letter-spacing: 0.2em;
+           padding: 1em 2em 1.1em;
+           position: relative;
+           text-decoration: none;
+           text-transform: uppercase;
+           vertical-align: top;
+           margin-top: 100px;
+         }
+         @keyframes bouncing {
+             0%{
+                 bottom: 0;
+                 box-shadow: 0 0 5px rgb(0, 0,0.5);
+                 /* left right down and transparancy */
+             }
+             100%{
+                 bottom: 50px;
+                 /* 50px uper chala jayega bottom se */
+                 box-shadow: 0 50px 50px rgb(0, 0,0.1); /*box shadow transparant kr diya hai */
+                 /* basically hmey ye dikhana hei ki jese jese ye uper jayega iski transparancy kam ho rhi hai dherey dherey */
+             }
+         }
+    
